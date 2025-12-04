@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripulação Ali Dragon</title>
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* BODY */
+        body {
+            background-color: #1a1a1a;
+            color: #f1f1f1;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #0d0d0d;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ff4d4d;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #ff4d4d;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #f1f1f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff4d4d;
+        }
+
+        /* MAIN */
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* MEMBERS SECTION */
+        .members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .member-card {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px #ff4d4d;
+        }
+        .member-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+            border: 2px solid #ff4d4d;
+        }
+        .member-card h3 {
+            margin-bottom: 5px;
+            color: #ff4d4d;
+        }
+        .member-card p {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #0d0d0d;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 2px solid #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tripulação Ali Dragon</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#membros">Membros</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à Tripulação Ali Dragon</h2>
+            <p>A tripulação mais forte e estratégica que você vai conhecer. Aqui você encontra todos os membros e informações sobre a nossa organização.</p>
+        </section>
+
+        <section id="membros">
+            <h2>Membros</h2>
+            <div class="members">
+                <!-- Membro 1 -->
+                <div class="member-card">
+                    <h3>Matjedo</h3>
+                    <p>Capitão</p>
+                </div>
+                <!-- Membro 2 -->
+                <div class="member-card">
+                    <h3>Gustavo</h3>
+                    <p>Administrador</p>
+                </div>
+                <!-- Membro 3 -->
+                <div class="member-card">
+                    <h3>Murilo</h3>
+                    <p>Administrador</p>
+                </div>
+                <!-- Membro 4 -->
+                <div class="member-card">
+                    <h3>Miguel Augusto</h3>
+                    <p>Administrador</p>
+                </div>
+                <!-- Membro 5 -->
+                <div class="member-card">
+                    <h3>Samuel</h3>
+                    <p>Função na tripulação</p>
+                </div>
+                <!-- Membro 6 -->
+                <div class="member-card">
+                    <h3>Gabriel</h3>
+                    <p>Admministrador</p>
+                </div>
+                <!-- Membro 7 -->
+                <div class="member-card">
+                    <h3>Francisco</h3>
+                    <p>Administrador</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para entrar em contato com a tripulação, envie um e-mail para <a href="mailto:lucasmatje09abc@gmail.com" style="color:#ff4d4d;">contato@alidragon.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Tripulação Ali Dragon. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
